@@ -15,9 +15,9 @@ Design and implement a small, demonstrable payment-processing proof of concept t
 4.	Returns an approval or decline response to the merchant.
 5.	Uses a Python-based assessor to inspect selected AWS configuration and report security findings.
 
-## Scope and limitations
-•	Payment processing, banking and authorisation will be simulated.
-•	No real funds, payment cards or cardholder data will be processed.
-•	Contactless, physical-card and online payments are represented by a single merchant-facing payment request in the MVP.
-•	The cloud architecture and security controls will be designed with relevant PCI DSS requirements in mind, without claiming PCI DSS compliance or certification.
-•	The security assessor will evaluate only explicitly supported checks and will document their evidence, limitations and requirement mappings.
+## Scope and limitation
+Payment processing, banking and authorisation will be simulated.
+No real funds, payment cards or cardholder data will be processed.
+Contactless, physical-card and online payments are represented by a single merchant-facing payment request in the MVP.
+The cloud architecture and security controls will be designed with relevant PCI DSS requirements in mind, without claiming PCI DSS compliance or certification.
+The security assessor will evaluate only explicitly supported checks and will document their evidence, limitations and requirement mappings.
