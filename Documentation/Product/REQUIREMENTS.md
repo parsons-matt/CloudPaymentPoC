@@ -45,6 +45,6 @@ Every simulated bank response must be checked against the outstanding request us
 SEC-01 Control access to internal APIs  
 The application-validation service and processing core must accept API calls only from explicitly authorised internal identities or components, over the documented connections.
 
-##Logs
+## Logs
 LOG-01 - Record security-relevant events  
 The demonstrator must record authentication failures, message-validation rejections, assessor findings and relevant security-configuration changes without logging secrets or unnecessary sensitive transaction data.
