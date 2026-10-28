@@ -23,6 +23,17 @@ Before the demonstrator is accepted, each implemented administrative role must h
 IAM-02 — Controlled and auditable changes  
 All changes to assessor code must be committed to version control and reviewed before merging. All in-scope changes to AWS security configuration must be attributable to an authorised identity and recorded through the applicable audit mechanism.
 
+### IAM-03 — Common-password blocking
+Where the selected authentication service supports it, commonly used, predictable, and known-compromised passwords must be blocked.
+
+### IAM-04 — Multi-factor authentication
+MFA must be enabled for every human identity with access to the AWS environment before that identity is granted project access. MFA must be required during sign-in wherever supported by the chosen identity provider and access method.
+
+MFA-device enrolment, replacement, and recovery must use a documented process that verifies the user's identity and records the action. Emergency access and recovery procedures must be documented and reviewed.
+
+### IAM-05 — Credential protection
+Passwords, API keys, access keys, tokens, and other credentials must not be stored in application code or committed to version control. Credentials must be handled using an approved secret-management mechanism and must not be exposed in logs.
+
 ## Assessment Platform
 ASS-01 — Complete, evidence-backed assessment results  
 Every assessment result produced by the v0.1 assessor must include a rule identifier, outcome, evidence examined, assessment timestamp, explanation, recommended remediation where applicable, and limitations.
